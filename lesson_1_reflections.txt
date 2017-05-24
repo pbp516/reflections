@@ -1,0 +1,39 @@
+the diff and FC commands show how two files contrast line by line such
+that we can determine how an altered line may have changed the behavior
+of the code
+
+
+Version control can help you become a better programmer by allowing you
+to see your progress in developing your code and how specific changes
+helped to ameliorate issues faced when tackling the problem. Past 
+versions could also provide some insights that were lost when 
+exploring a new approach that could be incorporated into the new 
+approach going forward. 
+
+The pros of chosing when to commit is that you can decide what logical 
+differences there will be in different versions of your program. Also
+it will be easier to determine the differences between two commits 
+because only the decided changes occurred, not multiple differences.
+The cons would be that you might be less likely to save after important 
+changes. Also, it might slow down development time if you're having
+to interrupt your workflow to make sure your committing individual
+features that are parts of a longer, deliberate process.
+
+It is reasonable to change multiple files in one commit through git
+because multiple files in a program often work harmoniously to 
+perform certain logical functions or control data across the program.
+In contrast, google docs has a version control system that treats
+saves among each file separately because each file presumably 
+pertains to one subject and does not contain data dependencies
+from other files.
+
+git log will show you all of the individuals commits in reverse 
+chronological order as well as the commit messages associated with
+that commit. You can use the commit messages to determine what changes
+were made. Then you use git diff to determine the difference of that 
+commit to the previous commit
+
+Version control allows you to confidently make changes because 
+code that breaks the program can easily be reverted back to the last 
+functioning instance as if the poorly made code never happened
+
