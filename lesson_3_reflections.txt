@@ -10,3 +10,11 @@ Why might you want to always pull changes manually rather than having Git automa
 	You might be working on a collaborative project where another user's
 	push into the github repository changes the file your working. This 
 	could be hazardous to the state of the project. So the best approach is to manually push/pull the files so you know exactly what state of the project your working with. 
+
+Describe the differences between forks, clones, and branches. When would you use onf instead of another?
+
+	A branch is a separate path taken within the repository by which
+	changes can be added without affecting the main master branch.
+	A clone is a whole copy of the respository that should be used when
+	you want to take a project from github or a local source.
+	A fork is a copy made on githubs servers that is useful when you want to have your version of a project as a remote that can be easily accessed and altered on your local system and github itself
