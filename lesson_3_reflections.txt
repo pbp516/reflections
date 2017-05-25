@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+  A remote repository is useful when collaborting with others on a project. Also 
+  if you want to ensure that files are properly backed up on githubs servers, it 
+  is useful to maintain a repository on their servers. 
