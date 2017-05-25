@@ -4,3 +4,9 @@ local?
   A remote repository is useful when collaborting with others on a project. Also 
   if you want to ensure that files are properly backed up on githubs servers, it 
   is useful to maintain a repository on their servers. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay-up-to date with your remote repository?
+
+	You might be working on a collaborative project where another user's
+	push into the github repository changes the file your working. This 
+	could be hazardous to the state of the project. So the best approach is to manually push/pull the files so you know exactly what state of the project your working with. 
